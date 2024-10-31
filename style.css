@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+}
+.container{
+    width: 100%;
+    height: 917px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 80%;
+    height: 300px;
+    background-color: aqua;
+    margin: 0 auto;;
+}
+main{
+    width: 80%;
+    margin: auto;
+    height: 100px;
+    background: green;
+}
+footer{
+    /* display: flex; */
+    margin-top: auto;
+    height: 200px;
+    background-color: black;
+}
+button{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
